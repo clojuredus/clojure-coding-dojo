@@ -1,14 +1,19 @@
-# gol
+# Game of Life
 
-A Clojure library designed to ... well, that part is up to you.
+Game of life ist ein sogenannter zellulärer Automat. Wir haben ein Spielfeld,
+das aus Zellen besteht. Eine Zelle kann entweder tot sein oder leben. Jede Zelle
+hat acht Nachbarzellen. Die Randzellen werden als grundsätzlich tot definiert.
 
-## Usage
+Es gibt drei Regeln, die über Leben und Tod entscheiden:
 
-FIXME
+1. Eine lebende Zelle, die weniger als zwei lebende Nachbarzellen hat, stirbt an
+   Einsamkeit.
+2. Eine lebende Zelle, die mehr als drei lebende Nachbarzellen hat, stirbt an
+   Überpopulation.
+3. Eine tote Zelle, die genau drei lebende Nachbarzellen hat, wird lebendig.
 
-## License
+Eine vierte Regel folgt aus den anderen drei Regeln: Eine lebende Zelle mit 2
+oder 3 lebenden Nachbarzellen überlebt, eine tote Zelle mit mehr oder weniger
+als drei lebenden Nachbarn bleibt tot.
 
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+![Game of Life](http://www3.hhu.de/stups/downloads/dojo/gol.png)
