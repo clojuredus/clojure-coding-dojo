@@ -2,7 +2,8 @@
 
 Game of life ist ein sogenannter zellulärer Automat. Wir haben ein Spielfeld,
 das aus Zellen besteht. Eine Zelle kann entweder tot sein oder leben. Jede Zelle
-hat acht Nachbarzellen. Die Randzellen werden als grundsätzlich tot definiert.
+hat acht Nachbarzellen. Die Funktion `element-at` kann hierbei helfen die
+entsprechenden Zellen anzusprechen.
 
 Es gibt drei Regeln, die über Leben und Tod entscheiden:
 
