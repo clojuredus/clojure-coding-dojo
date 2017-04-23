@@ -1,6 +1,6 @@
 (ns gilded-rose.core
   "Results of the Coding Dojo from the Clojure Meetup Düsseldorf.
-   Mode: Randori
+   Mode: Mob programming (16 people)
    Time: ~2 hours")
 
 (defn expired? [item]
