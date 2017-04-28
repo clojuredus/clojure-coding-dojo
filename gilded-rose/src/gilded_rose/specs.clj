@@ -1,6 +1,6 @@
 (ns gilded-rose.specs
-  (:require [clojure.spec :as s]
-            [clojure.spec.test :as stest]))
+  (:require [clojure.spec.alpha :as s]
+            [clojure.spec.test.alpha :as stest]))
 
 (s/def ::item-name string?)
 (s/def ::sell-in integer?)
