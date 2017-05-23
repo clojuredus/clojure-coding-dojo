@@ -5,7 +5,7 @@
 Alice found herself very tiny and wandering around Wonderland.  Even
 the grass around her seemed like a maze.
 
-![alice tiny](/images/alicetiny.gif)
+![alice tiny](img/alicetiny.gif)
 
 This is a tiny maze solver.
 
