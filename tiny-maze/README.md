@@ -1,6 +1,6 @@
 # tiny-maze
 
-*Taken from [wonderland-clojure-katas](https://github.com/gigasquid/wonderland-clojure-katas/tree/master/tiny-maze)*
+*Based on [wonderland-clojure-katas](https://github.com/gigasquid/wonderland-clojure-katas/tree/master/tiny-maze)*
 
 Alice found herself very tiny and wandering around Wonderland.  Even
 the grass around her seemed like a maze.
@@ -37,6 +37,7 @@ _:x_ in the start, the path, and the end of the maze, like this.
 - Run the tests with `lein test` or automatically with `lein test-refresh`
 - Make the tests pass!
 
+Hint: It might be a good idea to start with smaller tests.
 
 ## License
 
