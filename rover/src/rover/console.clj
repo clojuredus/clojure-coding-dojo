@@ -17,7 +17,7 @@
 (defn play [game]
   (try (loop [game game]
          (print-map game)
-         (println "Where do you want to move?")
+         (println "Where do you want to move? Available commands: l, r, f, b, q")
          (let [input (read-line)]
            (when-not (= input "q")
              (recur (rover/execute game input)))))
