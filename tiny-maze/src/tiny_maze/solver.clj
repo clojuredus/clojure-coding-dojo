@@ -1,7 +1,12 @@
 (ns tiny-maze.solver
-  "- _S_ : start of the maze
-  - _E_ : end of the maze
-  - _1_ : This is a wall that you cannot pass through
-  - _0_ : A free space that you can move through.")
+  "Example:
+  [[:S 0  1]
+   [1  0  1]
+   [1  0 :E]]
+
+  - :S : start of the maze
+  - :E : end of the maze
+  - 1 : This is a wall that you cannot pass through
+  - 0 : A free space that you can move through.")
 
 (defn solve-maze [maze])
