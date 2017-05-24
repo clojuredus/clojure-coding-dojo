@@ -11,10 +11,10 @@ Develop an API that moves a rover around on a grid.
 
 * You are given the initial starting point [x, y] of a rover, the direction
   (:north, :south, :east, :west) it is facing and the current world.
-* Implement commands that turn the rover left / right.
-* Implement commands that move the rover forward / backward.
 * The rover receives a string of commands, e.g. "l" (left), "lfl" (left,
   forward, left).
+* Implement commands that turn the rover left / right.
+* Implement commands that move the rover forward / backward.
 * Implement wrapping from one edge of the grid to another. (planets are spheres
   after all)
 * Implement obstacle detection before each move to a new square.
