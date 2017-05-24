@@ -1,4 +1,4 @@
 (ns roman.core)
 
-(defn convert [string]
+(defn convert [num]
   "I am groot")
