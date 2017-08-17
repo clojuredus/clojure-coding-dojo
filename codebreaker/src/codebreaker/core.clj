@@ -39,13 +39,15 @@
 ;; wrong arguments in your function (for use in dev-mode).
 (comment
   (stest/instrument `add)
-  (add 4 :foo))
+  (add 4 :foo)
+  )
 
 ;; You can turn off instrument to have normal behavior as you'd expect it in
 ;; production mode.
 (comment
   (stest/unstrument `add)
-  (add 4 :foo))
+  (add 4 :foo)
+  )
 
 ;; Generate 1000 tests for our function. Re-run this function multiple times.
 (stest/check `add)
@@ -58,7 +60,9 @@
 
 ;; Specs appear in the docs!
 (comment
-  (doc add))
+  (use 'clojure.repl)
+  (doc add)
+  )
 
 
 ;; -----------------------------------------------------------------------------
