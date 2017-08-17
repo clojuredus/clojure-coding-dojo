@@ -57,7 +57,8 @@
 (stest/summarize-results (stest/check `add))
 
 ;; Specs appear in the docs!
-(doc add)
+(comment
+  (doc add))
 
 
 ;; -----------------------------------------------------------------------------
