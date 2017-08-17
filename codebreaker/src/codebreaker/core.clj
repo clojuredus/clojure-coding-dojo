@@ -29,21 +29,23 @@
 (s/conform (:args (s/get-spec `add))
            [4 2])
 
-;; You can enable instrumentation for functions to get runtime-information about
-;; wrong arguments in your function (for use in dev-mode).
-(stest/instrument `add)
-(add 4 :foo)
-
-;; You can turn off instrument to have normal behavior as you'd expect it in
-;; production mode.
-(stest/unstrument `add)
-(add 4 :foo)
-
 ;; Now we have the definition and we can define the function itself
 (defn add
   "My awesome add function."
   [a b]
   (+ a b))
+
+;; You can enable instrumentation for functions to get runtime-information about
+;; wrong arguments in your function (for use in dev-mode).
+(comment
+  (stest/instrument `add)
+  (add 4 :foo))
+
+;; You can turn off instrument to have normal behavior as you'd expect it in
+;; production mode.
+(comment
+  (stest/unstrument `add)
+  (add 4 :foo))
 
 ;; Generate 1000 tests for our function. Re-run this function multiple times.
 (stest/check `add)
