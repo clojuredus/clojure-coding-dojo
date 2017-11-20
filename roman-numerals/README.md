@@ -1,12 +1,24 @@
 # roman-numerals-kata
 
+## Projektaufbau
+
+* Sourcecode: `src/roman/core.clj`
+* Tests: `test/roman/core_test.clj`
+
+Einen ersten Test haben wir schonmal in core_test.clj angelegt.
+
+## IDE
+
+Eine vorgefertigte Web-IDE kann mit `lein nightlight` gestartet werden. Unter
+[http://localhost:4000](http://localhost:4000) ist die IDE dann zu erreichen.
+
 ## Ping-Pong-Ablauf
 
 1. Sie schreiben einen fehlschlagenden Test.
 2. Sie geben die Tastaur an ihre(n) Partner(in) weiter.
 3. Ihr(e) Partner(in) schreibt nun Code, der die Tests erfüllt.
-4. Sie überlegen gemeinsam, ob ein Refactoring Sinn macht und Ihr(e) Partner(in)
-   führt das Refactoring aus.
+4. Sie überlegen gemeinsam, ob ein Refactoring Sinn ergibt und Ihr(e)
+   Partner(in) führt das Refactoring aus.
 5. Der Prozess beginnt von vorne mit vertauschten Rollen, d.h., Ihr(e)
    Partner(in) schreibt nun einen Test und dann wird gewechselt.
 6. Die Methode convert soll implementiert werden. Sie bekommt eine ganze Zahl
