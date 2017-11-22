@@ -25,12 +25,10 @@ Graphical visualization based on [stianeikeland/rover-clj](https://github.com/st
 
 ## Implementation
 
-Recommended approach to solve this kata is by using TDD. The code in this repo
-is written in Clojure.
+Recommended approach to solve this kata is by using TDD.
 
 ## Running
 
 The game has a graphical representation. To start it, type `lein run`.
 
 Run the tests with `lein test` or automatically with `lein test-refresh`
-
