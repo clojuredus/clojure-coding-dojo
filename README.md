@@ -39,3 +39,29 @@ InstaREPL.
 
 All projects have their own descriptions with some hints to solve them. Make
 sure to read their README-files.
+
+
+## Levels of Difficulty
+
+This repository contains several katas. Here are some advices where to get
+started:
+
+### Beginners
+
+These katas are very easy for beginners:
+
+* [Roman Numerals](roman-numerals): First tests given, test-driven development style
+* [Game of Life](gol): Applying the basic rules of game of life
+* [Rover](rover): Implement a mars rover. Contains a nice graphical implementation
+
+### Advanced
+
+* [Gilded Rose](gilded-rose): Refactor crowded code
+* [Tiny Maze](tiny-maze): Find your way through a maze
+* [Die Hard](diehard): Die-hard sale with some edge-cases
+
+### For clojure.spec
+
+Katas designed to learn clojure.spec:
+
+* [Codebreaker](codebreaker): First write your specs, then the code!
