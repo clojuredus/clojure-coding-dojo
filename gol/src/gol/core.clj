@@ -1,6 +1,6 @@
 (ns gol.core
   (:use [quil.core])
-  (:require [clojure.spec :as s]))
+  (:require [clojure.spec.alpha :as s]))
 
 ;; forward declaration, the functions are at the bottom of the file
 (declare start-simulation start-rendering world-height world-width element-at)
