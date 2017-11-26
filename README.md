@@ -8,7 +8,7 @@ At first, it might be a good start to check out the [ClojureScript
 Koans](http://clojurescriptkoans.com/), where you can interactively test out
 Clojure / ClojureScript and get familiar with the syntax.
 
-After this, you can use the katas from this repository or browser
+After this, you can use the katas from this repository or browse to
 [exercism.io](http://exercism.io/languages/clojure/about) to get more exercises.
 
 ## Start hacking
@@ -50,12 +50,12 @@ started:
 
 These katas are very easy for beginners:
 
-* [Roman Numerals](roman-numerals): First tests given, test-driven development style
 * [Game of Life](gol): Applying the basic rules of game of life
 * [Rover](rover): Implement a mars rover. Contains a nice graphical implementation
 
 ### Advanced
 
+* [Roman Numerals](roman-numerals): First tests given, test-driven development style
 * [Gilded Rose](gilded-rose): Refactor crowded code
 * [Tiny Maze](tiny-maze): Find your way through a maze
 * [Die Hard](diehard): Die-hard sale with some edge-cases
