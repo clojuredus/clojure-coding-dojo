@@ -171,3 +171,6 @@
     :draw draw
     :size [(max 200 (* (world-width  @rendered-w) 15)),
            (max 200 (* (world-height @rendered-w) 15))]))
+
+(defn -main []
+  (start-rendering))

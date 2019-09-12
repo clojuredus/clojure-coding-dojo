@@ -18,3 +18,11 @@ oder 3 lebenden Nachbarzellen überlebt, eine tote Zelle mit mehr oder weniger
 als drei lebenden Nachbarn bleibt tot.
 
 ![Game of Life](http://www3.hhu.de/stups/downloads/dojo/gol.png)
+
+Für dieses Kata ist es sinnvoll eine funktionierende REPL am Laufen zu haben.
+In `core.clj` befindet sich außerdem in den Kommentaren eine Funktion zum
+Starten des Rendering-Prozesses. Das sollte auch starten, wenn man
+
+    lein run
+    
+ausführt.
