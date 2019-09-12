@@ -31,4 +31,12 @@ Recommended approach to solve this kata is by using TDD.
 
 The game has a graphical representation. To start it, type `lein run`.
 
+To start a REPL and the graphical representation, first start a repl with
+
+    lein repl
+    
+and then execute in this REPL:
+
+    (-main)
+
 Run the tests with `lein test` or automatically with `lein test-refresh`

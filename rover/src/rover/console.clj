@@ -2,6 +2,8 @@
   (:require [rover.core :as rover]
             [clansi.core :refer [style]]))
 
+;; Nothing needs to be changed here. Just for visualization.
+
 (def terrain {:X (style "#" :yellow)
               :_ " "
               :north (style "Λ" :red :blink-slow :bright)
