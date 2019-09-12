@@ -1,6 +1,6 @@
 # Die-Hard Sale
 
-Ein Online Händler möchte die "Stirb langsam" Blue-Rays Disks (BD) promoten und
+Ein Online Händler möchte die "Stirb langsam" Blu-Rays Disks (BD) promoten und
 bewirbt daher eine Rabatt-Aktion. Der Grundpreis für jede BD beträgt 8 Euro.
 Wenn man aber zwei verschiedene Teile der Reihe kauft, bekommt man einen Rabatt
 von 5% auf den Preis der beiden BDs. Kauft man drei verschiedene Teile bekommt

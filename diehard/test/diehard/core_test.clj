@@ -1,9 +1,8 @@
 (ns diehard.core-test
   (:require [clojure.test :refer :all]
-  	        [clojure.spec.gen :as gen]
-  	        [clojure.spec.test :as stest] 
-            [diehard.core :refer :all]))
+            [diehard.core :refer [compute-shopping-cart]]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest ein-buch-im-warenkorb
+  (testing "Ein Buch gibt keinen Rabatt"
+    (let [cart [1 0 0 0 0]]
+      (is (= 12 (compute-shopping-cart cart))))))
