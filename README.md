@@ -50,12 +50,13 @@ started:
 
 These katas are very easy for beginners:
 
-* [Game of Life](gol): Applying the basic rules of game of life
+* [Roman Numerals](roman-numerals): First tests given, test-driven development style. Convert integer to
+  roman-numeral-styled Strings.
 * [Rover](rover): Implement a mars rover. Contains a nice graphical implementation
 
 ### Advanced
 
-* [Roman Numerals](roman-numerals): First tests given, test-driven development style
+* [Game of Life](gol): Applying the basic rules of game of life
 * [Gilded Rose](gilded-rose): Refactor crowded code
 * [Tiny Maze](tiny-maze): Find your way through a maze
 * [Die Hard](diehard): Die-hard sale with some edge-cases
